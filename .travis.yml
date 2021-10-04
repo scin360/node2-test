@@ -1,0 +1,7 @@
+sudo: required
+services:
+  - docker
+
+script:
+  - docker build §t scin360/node2 .
+  - docker images scin360/node2
